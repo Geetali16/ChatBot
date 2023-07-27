@@ -1,0 +1,113 @@
+.text-updater-node {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    background: rgb(248, 248, 248);
+    overflow-wrap: break-word;
+    width: 120px; 
+    height: 120px;
+    font-size: 10px;
+  }
+  
+  .text-updater-node label {
+    display: block;
+    color: black;
+    font-size: 11px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .option-display {
+    margin-bottom: 2px;
+  }
+  
+  .text-updater-node div button {
+    display: block;
+    align-items: center;
+    color: black;
+    font-size: 6px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    width: 0px;
+    height: 4px;
+    background-color: transparent;
+    border: none;
+    color: #afadad;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #474747;
+  }
+
+  .button-container {
+    position: absolute;
+    top: -4px;
+    right: 24px;
+    /* left: 54px; */
+    display: flex;
+  }
+
+  
+  .edit-button,
+  .copy-button {
+    padding: 0;
+    width: 0px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: transparent;
+    border: none;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .text-updater-node .MuiSvgIcon-root {
+    font-size: 11px !important;
+  }
+
+  .response-box {
+    margin-top: 5px;
+    width: 100px;
+  }
+  .response-box::placeholder {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #afadad;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  
+.error-text {
+  color: red;
+  font-size: 5px;
+  margin-top: -1px;
+}
+
+.verified-text {
+  color: green;
+  font-size: 6px;
+  margin-top: 2px;
+}
+
+.verify {
+  margin-top: 3px;
+  background-color: rgb(39, 203, 39);
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  color: white;
+}
+
+.verify:hover {
+  color: white;
+  font-size: bold;
+}
